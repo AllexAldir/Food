@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+:root {
+    --cor_fundo_nav: #E01D15;
+    --cor_fundo_header: #ffebc7;
+
+}
+body{
+    background-color: black;
+}
+
+header {
+    width: 100vw;
+    height: 180px;
+    background-color: var(--cor_fundo_header);
+    /* padding-top: 50px; */
+    background-image: url(Images/Logo_png-transparente.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+
+nav {
+    position: absolute;
+    top: 161px;
+    /* padding-top: 155px; */
+    padding-left: 10px;
+    background-color: var(--cor_fundo_nav);
+    width: 100vw;
+    /* height: 20px; */
+}
+
+nav > a {
+    /* display: inline-block; */
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    /* padding: 0px 10px 0px 10px; */
+    margin-top: 20px;
+}
+
+section{
+    width: 98vw;
+    padding: 50px 0px 50px 0px;
+    height: 400px;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+#i01{
+    background-image: url(Images/pexels-rajesh-tp-1633578.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#i02{
+    background-image: url(Images/pexels-oliver-sjöström-1025804.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#i03{
+    background-image: url(Images/pexels-sanket-sawant-2340204.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 0px;
+}
+
+
+.d{
+    background-color: rgba(0, 0, 0, 0.253);
+        width: 400px;
+        line-height: 1.5em;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+}
+
+footer > p{
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
